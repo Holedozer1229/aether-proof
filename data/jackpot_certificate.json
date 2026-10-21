@@ -1,0 +1,56 @@
+{
+  "type": "P9 Ladder bycatch certificate",
+  "date": "2026-10-21",
+  "tip_height": 972542,
+  "tip_hash": "0000000000000000000106ecff4afcf5f7862ac039384e7b5ce5629c1f75dc0c",
+  "candidate_height": 972543,
+  "bits": "17020093",
+  "coinbase_txid": "ccdc177367fbd2a846d6f6178ced58d5f2b0f52c11850f50d325562848a81665",
+  "header_time": 1792620575,
+  "grind_seconds": 145,
+  "core": "btc_core6 (Period-9 + Advantage Scaled)",
+  "tiers": {
+    "tier0": {
+      "target": "2^224",
+      "hits": 1,
+      "best": {
+        "nonce": 2967350756,
+        "hash": "00000000a0d19ccb4470eed7984700f88597e125e94322892b0373cc2177c291",
+        "lzb": 32
+      }
+    },
+    "tier1": {
+      "target": "2^228",
+      "hits": 0,
+      "best": null
+    },
+    "tier2": {
+      "target": "2^232",
+      "hits": 12,
+      "best": {
+        "nonce": 2826126592,
+        "hash": "00000031d4135a183e835cc92c93fd5ba65f3c157f4fcf3741502b211d4b877a",
+        "lzb": 26
+      }
+    },
+    "tier3": {
+      "target": "2^236",
+      "hits": 193,
+      "best": {
+        "nonce": 2861593876,
+        "hash": "0000014bf28a3e3b008ff5e358601872fbd831925abaf1ef6c68158307489ab0",
+        "lzb": 23
+      }
+    }
+  },
+  "headline": {
+    "tier": "tier0",
+    "nonce": 2967350756,
+    "hash": "00000000a0d19ccb4470eed7984700f88597e125e94322892b0373cc2177c291",
+    "lzb": 32
+  },
+  "meets_network_target": false,
+  "statement": "P9 LADDER CERTIFICATE \u2014 2026-10-21. On live Bitcoin tip height 972542 (0000000000000000000106ecff4afcf5f7862ac039384e7b5ce5629c1f75dc0c), a candidate block for height 972543 paying 3.125 BTC to bc1qw6ldj0u3dxhrpnqqfh8gh7x74uzfnsvv3qkdf3 (coinbase txid ccdc177367fbd2a846d6f6178ced58d5f2b0f52c11850f50d325562848a81665) was ground with btc_core6 (Period-9 + Advantage Scaled, four-tier bycatch ladder) for 145 seconds. Bycatch by tier \u2014 tier0: 1 hits (best 32 lzb), tier1: 0 hits (best 0 lzb), tier2: 12 hits (best 26 lzb), tier3: 193 hits (best 23 lzb). Headline hit (tier0): nonce 2967350756, header hash 00000000a0d19ccb4470eed7984700f88597e125e94322892b0373cc2177c291, 32 leading zero bits. No hit meets the network target; these are work records, not blocks. Header (hex): 010000000cdc751f9c62e55c7b4e3839c02a86f7f5fc4affec06010000000000000000006516a848285625d3500f85112cf5b0f2d558ed8c17f6d646a8d2fb677317dccc1f38d96a93000217e42ddeb0.",
+  "operator_bip322_sig": "AkcwRAIgCkUF0HtnG9vxaa9eXSOuST+7pBaWjizeezR6pA8WwWwCIEGxwNIAbb8PaeUo53yBywID6MaJTIJGf2DvMe/p0RVYASEDUH93nKcbalT7slBs4C+JipqVAJRxR4iCjYBPW7LVLhI=",
+  "sig_verifies": true
+}

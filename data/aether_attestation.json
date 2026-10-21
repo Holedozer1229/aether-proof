@@ -1,0 +1,7 @@
+{
+  "eth_address": "0x24E8384B007e5F72bD72e479006C9A3a95b9D8B9",
+  "message_file": "aether_attestation.txt",
+  "message_note": "message is the EXACT byte content of the .txt file (no trailing newline)",
+  "eth_signature": "0x89d8c4727a576e3a92163046b8c120d5533b2761ae4574d424a80694e272361a3789fac4c8eddb89210042c32ad2c539ecc23bc88c7c5b1381961e22ef8eaeb51c",
+  "btc_operator_sig": "d06fe2494e68f3fcd74015f004490ce3ed353f01f4807b2613a2c94d164867b21433eea1077d78070d08ff9638eb936d1b07be64cf9e1ff64dd4f8d48fa39a75"
+}

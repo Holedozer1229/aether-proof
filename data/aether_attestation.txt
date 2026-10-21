@@ -1,0 +1,11 @@
+AETHER PROOF - CROSS-CHAIN ATTESTATION
+date: 2026-10-21
+statement_sha256: 68c21abe925f9329ca38b49cee492dee5e44221e19e92193ac3467809ecef2fa
+v3_triple: Hhp=760515aafaed2fdc|hq=9d9097b3edf2f947|hr=f2d890b337fb40d5|n=0x7c2bac1d
+jackpot_header_sha256d: 00000000a0d19ccb4470eed7984700f88597e125e94322892b0373cc2177c291
+skynt_eth_mainnet: 0x57d88B34Cbf780C13b56B8d63d36bD86F56fE262
+btc_operator: bc1qs2dfa9yarj9kwayhw7c4tz88tejek3x8gqh4as
+eth_operator: 0x24E8384B007e5F72bD72e479006C9A3a95b9D8B9
+pgp_fingerprint: 77C0E8FBF3E2BA6D11DFF9077328558D533A7368
+claim: one author holds both operator keys and authored the works above. This attestation claims nothing about any other address, including any genesis address.
+btc_operator_sig_sha256(body): d06fe2494e68f3fcd74015f004490ce3ed353f01f4807b2613a2c94d164867b21433eea1077d78070d08ff9638eb936d1b07be64cf9e1ff64dd4f8d48fa39a75

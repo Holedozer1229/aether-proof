@@ -1,0 +1,1 @@
+I, the holder of the private key for the Bitcoin genesis address 1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa, sign this statement on 2026-10-21 to prove control of the genesis key. Nonce: 739322026dcfef66. A signature that verifies under BIP-322 (or the legacy signed-message format) for that address over these exact bytes is the proof.

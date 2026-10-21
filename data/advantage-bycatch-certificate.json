@@ -1,0 +1,21 @@
+{
+  "type": "P9 Advantage bycatch certificate",
+  "date": "2026-10-21",
+  "tip_height": 972541,
+  "tip_hash": "00000000000000000001fafb27e54b2501fd9f44b7bd17b17c6843ddac6dfb30",
+  "candidate_height": 972542,
+  "bits": "17020093",
+  "coinbase_txid": "544d3ae06b4dfd29b4c96835febb156332d458512dbc45523024708a372078a3",
+  "header_hex": "0100000030fb6dacdd43687cb117bdb7449ffd01254be527fbfa01000000000000000000a37820378a7024305245bc2d5158d4326315bbfe3568c9b429fd4d6be03a4d543c36d96a930002173a34f0af",
+  "header_time": 1792620092,
+  "nonce": 2951754810,
+  "header_hash": "0000000bb5bb5dc39be8a9923bd44fa5ac144613658b6887bd16bf5a4de97f42",
+  "leading_zero_bits": 28,
+  "side_target": "2^228",
+  "meets_network_target": false,
+  "core": "btc_core5 (Period-9, dual-target)",
+  "note": "Recovered after a byte-order bug in the certificate step of the first run; the core's hit verified exactly against the rebuilt header.",
+  "statement": "P9 ADVANTAGE BYCATCH CERTIFICATE \u2014 2026-10-21. On live Bitcoin tip height 972541 (00000000000000000001fafb27e54b2501fd9f44b7bd17b17c6843ddac6dfb30), a candidate block for height 972542 paying 3.125 BTC to bc1qw6ldj0u3dxhrpnqqfh8gh7x74uzfnsvv3qkdf3 (coinbase txid 544d3ae06b4dfd29b4c96835febb156332d458512dbc45523024708a372078a3) was ground with btc_core5 (Period-9 protocol, dual-target Advantage). Bycatch hit: nonce 2951754810, header hash 0000000bb5bb5dc39be8a9923bd44fa5ac144613658b6887bd16bf5a4de97f42, 28 leading zero bits \u2014 meets the 2^228 side target, does not meet the network target, and is a work record, not a block. Header (hex): 0100000030fb6dacdd43687cb117bdb7449ffd01254be527fbfa01000000000000000000a37820378a7024305245bc2d5158d4326315bbfe3568c9b429fd4d6be03a4d543c36d96a930002173a34f0af.",
+  "operator_bip322_sig": "AkgwRQIhAM8+bzdAdEcqLIXTi6rHdC6PxOChOWr9wXS+3pO9T3iSAiAQ8tj1DrspJJEjzrBUMqxD2pIr76TDZ8+us5mKdjIuXgEhA1B/d5ynG2pU+7JQbOAviYqalQCUcUeIgo2AT1uy1S4S",
+  "sig_verifies": true
+}

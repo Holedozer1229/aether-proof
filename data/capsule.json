@@ -1,0 +1,50 @@
+{
+  "type": "AETHER PROOF \u2014 cross-chain authorship capsule",
+  "version": 2,
+  "created_unix": 1792623058,
+  "work": {
+    "source": "your_files/advantage-ladder-certificate-972543-jackpot.json",
+    "tip_height": 972542,
+    "tip_hash": "0000000000000000000106ecff4afcf5f7862ac039384e7b5ce5629c1f75dc0c",
+    "candidate_height": 972543,
+    "bits": "17020093",
+    "coinbase_txid": "ccdc177367fbd2a846d6f6178ced58d5f2b0f52c11850f50d325562848a81665",
+    "header_time": 1792620575,
+    "nonce": 2967350756,
+    "header_hash": "00000000a0d19ccb4470eed7984700f88597e125e94322892b0373cc2177c291",
+    "leading_zero_bits": 32
+  },
+  "pattern": {
+    "hp": "760515aafaed2fdc",
+    "hq": "9d9097b3edf2f947",
+    "hr": "f2d890b337fb40d5",
+    "n": "0x7c2bac1d",
+    "genesis_challenge_statement": "your_files/cross_proof/genesis_challenge/statement_genesis.txt",
+    "genesis_challenge_statement_sha256": "68c21abe925f9329ca38b49cee492dee5e44221e19e92193ac3467809ecef2fa"
+  },
+  "merge": {
+    "chain": "Excalibur (fork)",
+    "source": "workspace/fork_child.py (live run at build time)",
+    "height": 23669,
+    "bits": 503382016,
+    "target": "0000010000000000000000000000000000000000000000000000000000000000",
+    "child_hash_display": "d406c66c9278da48783c9f84266a9d6dd5630f2779b08da92b099a500a4c3388",
+    "child_hash_internal": "88334c0a509a092ba98db079270f63d56d9d6a26849f3c7848da78926cc606d4",
+    "child_header_hex": "010000006a04d16ce941ce354046ec8654638ce88193b7a8e3afad2a9702a993fb0000006fc6e9eaceac72121a20a06613d8536b5cdb7f5811fade1f81c5c4bbf092f0a7d141d96a0000011e00000000",
+    "coinbase_hex": "01000000010000000000000000000000000000000000000000000000000000000000000000ffffffff14040000011e09457863616c6962757204755c0000ffffffff0100f2052a010000001500947c64501b265ae4e7cfc09e989e9836d3ad555600000000"
+  },
+  "identity": {
+    "operator_p2wpkh": "bc1qs2dfa9yarj9kwayhw7c4tz88tejek3x8gqh4as",
+    "operator_pubkey_compressed": "03507f779ca71b6a54fbb2506ce02f898a9a950094714788828d804f5bb2d52e12",
+    "pgp_fingerprint": "77C0E8FBF3E2BA6D11DFF9077328558D533A7368",
+    "pgp_uid": "Travis Jones <holedozer@icloud.com>"
+  },
+  "btc_height": 972543,
+  "seal": {
+    "scheme": "ECDSA secp256k1, RFC 6979 deterministic, low-S, over SHA256(canonical core)",
+    "digest_sha256": "ac818731d39116425da5cba59864324f3804696836f6272970171cc972c4941f",
+    "signature_hex": "eb8488462ca02aa41ac23dc718b3b8f8fe5a77573f0cae725a385e60304e9b70212fbdcad4f63775d5dcfb6d2eada6b04af71b3afb2975af407f42854afde8d8",
+    "signer_pubkey_compressed": "03507f779ca71b6a54fbb2506ce02f898a9a950094714788828d804f5bb2d52e12"
+  },
+  "capsule_sha256": "d0173ec2234e78eab2dbee62b74e126cb9b4f0d53034e0c694d380d2bcf8c4b1"
+}

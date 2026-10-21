@@ -1,0 +1,174 @@
+{
+  "batch1": {
+    "S12-cycle-asc-r0": {
+      "mean_steps": 60215.020833333336,
+      "ratio": 1.0154428896991867,
+      "total_ratio": 0.9925488123532161,
+      "z": 0.29520834276983565,
+      "flagged": false
+    },
+    "S12-cycle-asc-r2731": {
+      "mean_steps": 90935.14583333333,
+      "ratio": 1.5165797812053994,
+      "total_ratio": 1.498921195225718,
+      "z": 1.421788569827895,
+      "flagged": false
+    },
+    "S12-cycle-serpent-r0": {
+      "mean_steps": 56593.583333333336,
+      "ratio": 0.8281100351170073,
+      "total_ratio": 0.932855177112512,
+      "z": -1.1772034547521288,
+      "flagged": false
+    },
+    "S12-cycle-serpent-r2731": {
+      "mean_steps": 55318.666666666664,
+      "ratio": 1.130470534327504,
+      "total_ratio": 0.9118402043393261,
+      "z": 0.43839774301150536,
+      "flagged": false
+    },
+    "S12-gamma-asc-r0": {
+      "mean_steps": 60389.666666666664,
+      "ratio": 0.9693966034177296,
+      "total_ratio": 0.995427571042634,
+      "z": -0.7499372295479362,
+      "flagged": false
+    },
+    "S12-gamma-asc-r2731": {
+      "mean_steps": 90647.4375,
+      "ratio": 1.6034280507030405,
+      "total_ratio": 1.4941787811137222,
+      "z": 1.7617838242197796,
+      "flagged": false
+    },
+    "S12-gamma-serpent-r0": {
+      "mean_steps": 56613.979166666664,
+      "ratio": 0.7842609698969872,
+      "total_ratio": 0.933191369973891,
+      "z": -1.5461776814003043,
+      "flagged": false
+    },
+    "S12-gamma-serpent-r2731": {
+      "mean_steps": 55167.375,
+      "ratio": 1.2115147814308858,
+      "total_ratio": 0.909346401929383,
+      "z": 0.7603921540186243,
+      "flagged": false
+    },
+    "S16-cycle-asc-r0": {
+      "mean_steps": 59828.4375,
+      "ratio": 0.9805290756858774,
+      "total_ratio": 0.9861766011828906,
+      "z": -0.10379808823363508,
+      "flagged": false
+    },
+    "S16-cycle-asc-r2731": {
+      "mean_steps": 55494.708333333336,
+      "ratio": 1.0204198056683824,
+      "total_ratio": 0.9147419711203807,
+      "z": 0.08502501165981254,
+      "flagged": false
+    },
+    "S16-cycle-serpent-r0": {
+      "mean_steps": 66807.5625,
+      "ratio": 1.016277605560391,
+      "total_ratio": 1.1012163725580086,
+      "z": 0.08384717845664087,
+      "flagged": false
+    },
+    "S16-cycle-serpent-r2731": {
+      "mean_steps": 61305.4375,
+      "ratio": 1.0485725871965985,
+      "total_ratio": 1.0105225961781157,
+      "z": 0.19538772483733122,
+      "flagged": false
+    },
+    "S16-gamma-asc-r0": {
+      "mean_steps": 63681.8125,
+      "ratio": 1.101136410986879,
+      "total_ratio": 1.0496933570831783,
+      "z": 0.6519583088757682,
+      "flagged": false
+    },
+    "S16-gamma-asc-r2731": {
+      "mean_steps": 63744.791666666664,
+      "ratio": 1.389974669145263,
+      "total_ratio": 1.050731468441655,
+      "z": 1.4465729368797104,
+      "flagged": false
+    },
+    "S16-gamma-serpent-r0": {
+      "mean_steps": 68156.60416666667,
+      "ratio": 1.1164173137931135,
+      "total_ratio": 1.1234531780184127,
+      "z": 0.7248862495052755,
+      "flagged": false
+    },
+    "S16-gamma-serpent-r2731": {
+      "mean_steps": 70108.79166666667,
+      "ratio": 1.4557314524979892,
+      "total_ratio": 1.1556318828963685,
+      "z": 1.6146648304401434,
+      "flagged": false
+    },
+    "S20-cycle-asc-r0": {
+      "mean_steps": 55387.145833333336,
+      "ratio": 0.9044469253816163,
+      "total_ratio": 0.9129689744469387,
+      "z": -0.40842801680788215,
+      "flagged": false
+    },
+    "S20-cycle-asc-r2731": {
+      "mean_steps": 60508.645833333336,
+      "ratio": 0.9290415272192623,
+      "total_ratio": 0.9973887533014036,
+      "z": -0.3032058538625164,
+      "flagged": false
+    },
+    "S20-cycle-serpent-r0": {
+      "mean_steps": 55387.145833333336,
+      "ratio": 0.9044469253816163,
+      "total_ratio": 0.9129689744469387,
+      "z": -0.40842801680788215,
+      "flagged": false
+    },
+    "S20-cycle-serpent-r2731": {
+      "mean_steps": 60508.645833333336,
+      "ratio": 0.9290415272192623,
+      "total_ratio": 0.9973887533014036,
+      "z": -0.3032058538625164,
+      "flagged": false
+    },
+    "S20-gamma-asc-r0": {
+      "mean_steps": 47016.645833333336,
+      "ratio": 0.840293728593713,
+      "total_ratio": 0.7749945999665524,
+      "z": -0.6392449428665717,
+      "flagged": false
+    },
+    "S20-gamma-asc-r2731": {
+      "mean_steps": 68463.10416666667,
+      "ratio": 1.2393171196317718,
+      "total_ratio": 1.1285053428566227,
+      "z": 0.7572319537981957,
+      "flagged": false
+    },
+    "S20-gamma-serpent-r0": {
+      "mean_steps": 47016.645833333336,
+      "ratio": 0.840293728593713,
+      "total_ratio": 0.7749945999665524,
+      "z": -0.6392449428665717,
+      "flagged": false
+    },
+    "S20-gamma-serpent-r2731": {
+      "mean_steps": 68463.10416666667,
+      "ratio": 1.2393171196317718,
+      "total_ratio": 1.1285053428566227,
+      "z": 0.7572319537981957,
+      "flagged": false
+    }
+  },
+  "flagged": [],
+  "survivors": []
+}
