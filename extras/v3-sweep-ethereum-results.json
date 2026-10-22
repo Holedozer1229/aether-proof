@@ -1,0 +1,46 @@
+{
+ "families": {
+  "0_calibration_original_sha256": {
+   "tried": 3,
+   "hits": [],
+   "detail": "original messerene() + sha256 h at s in {1,2,0}; gate for all negatives below"
+  },
+  "1a_keccak_selector_pregenesis_formula": {
+   "tried": 12800,
+   "hits": [],
+   "detail": "k=(keccak256(b'MESSERENE/PREGENESIS/v1'||P_bytes||b'MESSERENE/SEL='||enc(s)) mod (n-1))+1, h=keccak256(k 32B BE)[:8]; enc: byte 0..255, u16be/u16le/u256be 0..4095, ascii 0..255"
+  },
+  "1b_keccak_selector_structural_mirror": {
+   "tried": 12800,
+   "hits": [],
+   "detail": "k=(keccak256(b'MESSERENE/SEL='||enc(s)||P_bytes) mod (n-1))+1, h=keccak256(k 32B BE)[:8]; same encodings/ranges as 1a"
+  },
+  "2_mixed_sha256_k_keccak_h": {
+   "tried": 12800,
+   "hits": [],
+   "detail": "k=(sha256(SEL||enc(s)||P_bytes) mod (n-1))+1 (original derive), h=keccak256(k 32B BE)[:8]; same encodings/ranges as 1a"
+  },
+  "3_mixed_keccak_k_sha256_h": {
+   "tried": 17920,
+   "hits": [],
+   "detail": "k as in 1a/1b, h=sha256(k 32B BE)[:8]; enc: byte 0..255, u16be/u16le 0..4095, u256be/ascii 0..255"
+  },
+  "4_ethereum_address_forms": {
+   "tried": 282,
+   "hits": [],
+   "detail": "k from schemes {sha256-orig, keccak-1a, keccak-1b} x encodings {byte,u16be,u16le,u256be,ascii} x s in {0,1,2}, plus main derives (sha256 and keccak PREGENESIS); addr=keccak256(x||y)[-20:]; h candidates = [:8] of addr bytes, keccak256(addr), keccak256(hex ascii) lower/EIP-55 with/without 0x"
+  },
+  "5_pattern_domain_variants_and_n_placements": {
+   "tried": 4312,
+   "hits": [],
+   "detail": "pattern material in {P_bytes, PATTERN ascii upper, ascii lower, keccak256(P_bytes)}; domains in {PREGENESIS/v1, MESSERENE/ETHEREUM/v1, MESSERENE/PREGENESIS/ETH/v1}; s in {0,1,2} (byte + u256be encodings); plus n placements at byte selectors 0..255"
+  },
+  "6_keccak_dictionary": {
+   "tried": 26,
+   "hits": [],
+   "detail": "keccak256(w)[:8] and keccak256(keccak256(w))[:8] over the original Phase-6 word list"
+  }
+ },
+ "total_tried": 60943,
+ "calibration_ok": true
+}

@@ -73,7 +73,13 @@ your harness — not the challenge — needs fixing.
 ### The negative result (part of the record)
 
 A sweep of roughly **140,000 derivations** across the nearby parameter
-space found **zero** of the three v3 components:
+space found **zero** of the three v3 components. A second sweep the same
+day added **60,943 Ethereum-form derivations** — Keccak-256 mirrors of
+every family below, mixed SHA-256/Keccak forms, abi-style `uint256`
+selectors, Ethereum-address forms, and `n` placements under both hashes —
+and also found **zero** (see `extras/v3_sweep_ethereum.py` and
+`extras/v3-sweep-ethereum-results.json`; the harness calibration against
+the known triple above passed before either negative was trusted):
 
 - selector bytes 0–255 under the canonical construction;
 - 16-bit selectors 0–65535, big-endian and little-endian domain encodings;
